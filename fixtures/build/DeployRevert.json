@@ -1,0 +1,14 @@
+{
+	"abi": [
+		{
+			"inputs": [],
+			"stateMutability": "nonpayable",
+			"type": "constructor"
+		}
+	],
+	"evm": {
+		"bytecode": {
+			"object": "6080604052348015600f57600080fd5b506000601a57600080fd5b603f8060276000396000f3fe6080604052600080fdfea264697066735822122097fd7c0cdcb3a8015df4cce061a4d7f8c2919787475e0b07d1b0ec13223097ac64736f6c63430008100033"
+		}
+	}
+}

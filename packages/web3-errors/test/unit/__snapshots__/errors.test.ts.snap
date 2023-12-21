@@ -1,0 +1,454 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`errors ConnectionCloseError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 504,
+  "errorCode": 10,
+  "errorReason": "reason",
+  "innerError": undefined,
+  "message": "CONNECTION ERROR: The connection got closed with the close code 10 and the following reason string reason",
+  "name": "ConnectionCloseError",
+}
+`;
+
+exports[`errors ConnectionError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 500,
+  "errorCode": 10,
+  "errorReason": "reason",
+  "innerError": undefined,
+  "message": "error message",
+  "name": "ConnectionError",
+}
+`;
+
+exports[`errors ConnectionNotOpenError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 503,
+  "errorCode": 10,
+  "errorReason": "reason",
+  "innerError": undefined,
+  "message": "Connection not open",
+  "name": "ConnectionNotOpenError",
+}
+`;
+
+exports[`errors ConnectionTimeoutError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 502,
+  "duration": 5000,
+  "errorCode": undefined,
+  "errorReason": undefined,
+  "innerError": undefined,
+  "message": "CONNECTION TIMEOUT: timeout of 5000ms achieved",
+  "name": "ConnectionTimeoutError",
+}
+`;
+
+exports[`errors ContractCodeNotStoredError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 404,
+  "innerError": undefined,
+  "message": "The contract code couldn't be stored, please check your gas limit.",
+  "name": "ContractCodeNotStoredError",
+  "receipt": Object {
+    "attr1": "attr1",
+  },
+}
+`;
+
+exports[`errors ContractEventDoesNotExistError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 304,
+  "eventName": "eventName",
+  "innerError": undefined,
+  "message": "Event \\"eventName\\" doesn't exist in this contract.",
+  "name": "ContractEventDoesNotExistError",
+}
+`;
+
+exports[`errors ContractMissingABIError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 302,
+  "innerError": undefined,
+  "message": "You must provide the json interface of the contract when instantiating a contract object.",
+  "name": "ContractMissingABIError",
+}
+`;
+
+exports[`errors ContractMissingDeployDataError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 306,
+  "innerError": undefined,
+  "message": "No \\"data\\" specified in neither the given options, nor the default options.",
+  "name": "ContractMissingDeployDataError",
+}
+`;
+
+exports[`errors ContractNoAddressDefinedError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 307,
+  "innerError": undefined,
+  "message": "This contract object doesn't have address set yet, please set an address first.",
+  "name": "ContractNoAddressDefinedError",
+}
+`;
+
+exports[`errors ContractNoFromAddressDefinedError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 308,
+  "innerError": undefined,
+  "message": "No \\"from\\" address specified in neither the given options, nor the default options.",
+  "name": "ContractNoFromAddressDefinedError",
+}
+`;
+
+exports[`errors ContractOnceRequiresCallbackError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 303,
+  "innerError": undefined,
+  "message": "Once requires a callback as the second parameter.",
+  "name": "ContractOnceRequiresCallbackError",
+}
+`;
+
+exports[`errors ContractReservedEventError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 305,
+  "innerError": undefined,
+  "message": "Event \\"type\\" doesn't exist in this contract.",
+  "name": "ContractReservedEventError",
+  "type": "type",
+}
+`;
+
+exports[`errors Eip838ExecutionError should get the data from error.data.data 1`] = `
+Object {
+  "cause": [Eip838ExecutionError: Error],
+  "code": undefined,
+  "data": "0x0000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000001800000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000001610000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016300000000000000000000000000000000000000000000000000000000000000",
+  "innerError": [Eip838ExecutionError: Error],
+  "message": "Error",
+  "name": "Eip838ExecutionError",
+}
+`;
+
+exports[`errors Eip838ExecutionError should get the data from error.data.originalError.data 1`] = `
+Object {
+  "cause": [Eip838ExecutionError: Error],
+  "code": undefined,
+  "data": "0x0000000000000000000000000000000000000000000000000000000000000060000000000000000000000000000000000000000000000000000000000000001800000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000000000000000000000000000000000000001610000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000016300000000000000000000000000000000000000000000000000000000000000",
+  "innerError": [Eip838ExecutionError: Error],
+  "message": "Error",
+  "name": "Eip838ExecutionError",
+}
+`;
+
+exports[`errors InvalidConnectionError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 501,
+  "errorCode": 10,
+  "errorReason": "reason",
+  "host": "my host",
+  "innerError": undefined,
+  "message": "CONNECTION ERROR: Couldn't connect to node my host.",
+  "name": "InvalidConnectionError",
+}
+`;
+
+exports[`errors InvalidNumberOfParamsError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 200,
+  "expected": 20,
+  "got": 10,
+  "innerError": undefined,
+  "message": "Invalid number of parameters for \\"method\\". Got \\"10\\" expected \\"20\\"!",
+  "method": "method",
+  "name": "InvalidNumberOfParamsError",
+}
+`;
+
+exports[`errors InvalidPropertiesForTransactionTypeError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 439,
+  "innerError": undefined,
+  "message": "The following properties are invalid for the transaction type 0x0: property",
+  "name": "InvalidPropertiesForTransactionTypeError",
+}
+`;
+
+exports[`errors InvalidProviderError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 601,
+  "innerError": undefined,
+  "message": "Provider with url \\"my url\\" is not set or invalid",
+  "name": "InvalidProviderError",
+}
+`;
+
+exports[`errors InvalidResponseError should have valid json structure 1`] = `
+Object {
+  "cause": Object {
+    "code": 123,
+    "data": Object {
+      "a": "10",
+      "b": "20",
+    },
+    "message": "error message",
+  },
+  "code": 101,
+  "data": Object {
+    "a": "10",
+    "b": "20",
+  },
+  "innerError": Object {
+    "code": 123,
+    "data": Object {
+      "a": "10",
+      "b": "20",
+    },
+    "message": "error message",
+  },
+  "message": "Returned error: error message",
+  "name": "InvalidResponseError",
+  "request": undefined,
+}
+`;
+
+exports[`errors MaxAttemptsReachedOnReconnectingError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 505,
+  "errorCode": undefined,
+  "errorReason": undefined,
+  "innerError": undefined,
+  "message": "Maximum number of reconnect attempts reached! (5)",
+  "name": "MaxAttemptsReachedOnReconnectingError",
+}
+`;
+
+exports[`errors NoContractAddressFoundError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 403,
+  "innerError": undefined,
+  "message": "The transaction receipt didn't contain a contract address.",
+  "name": "NoContractAddressFoundError",
+  "receipt": Object {
+    "attr1": "attr1",
+  },
+}
+`;
+
+exports[`errors PendingRequestsOnReconnectingError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 506,
+  "errorCode": undefined,
+  "errorReason": undefined,
+  "innerError": undefined,
+  "message": "CONNECTION ERROR: Provider started to reconnect before the response got received!",
+  "name": "PendingRequestsOnReconnectingError",
+}
+`;
+
+exports[`errors ResolverMethodMissingError should have valid json structure 1`] = `
+Object {
+  "address": "address",
+  "cause": undefined,
+  "code": 301,
+  "innerError": undefined,
+  "message": "The resolver at address does not implement requested method: \\"name\\".",
+  "name": "name",
+}
+`;
+
+exports[`errors ResponseError should have valid json structure with data 1`] = `
+Object {
+  "cause": Object {
+    "code": 123,
+    "data": Object {
+      "a": "10",
+      "b": "20",
+    },
+    "message": "error message",
+  },
+  "code": 100,
+  "data": Object {
+    "a": "10",
+    "b": "20",
+  },
+  "innerError": Object {
+    "code": 123,
+    "data": Object {
+      "a": "10",
+      "b": "20",
+    },
+    "message": "error message",
+  },
+  "message": "Returned error: error message",
+  "name": "ResponseError",
+  "request": undefined,
+}
+`;
+
+exports[`errors ResponseError should have valid json structure without data 1`] = `
+Object {
+  "cause": Object {
+    "code": 123,
+    "data": undefined,
+    "message": "error message",
+  },
+  "code": 100,
+  "data": undefined,
+  "innerError": Object {
+    "code": 123,
+    "data": undefined,
+    "message": "error message",
+  },
+  "message": "Returned error: error message",
+  "name": "ResponseError",
+  "request": undefined,
+}
+`;
+
+exports[`errors ResponseError should include the array of inner errors 1`] = `
+Object {
+  "cause": [MultipleErrors: Multiple errors occurred: [error message], [error message]],
+  "code": 100,
+  "data": Array [
+    Object {
+      "a": "10",
+      "b": "20",
+    },
+    Object {
+      "c": "30",
+      "d": "40",
+    },
+  ],
+  "innerError": [MultipleErrors: Multiple errors occurred: [error message], [error message]],
+  "message": "Returned error: error message,error message",
+  "name": "ResponseError",
+  "request": undefined,
+}
+`;
+
+exports[`errors RevertInstructionError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 401,
+  "innerError": undefined,
+  "message": "Your request got reverted with the following reason string: message",
+  "name": "RevertInstructionError",
+  "reason": "message",
+  "signature": "signature",
+}
+`;
+
+exports[`errors SchemaFormatError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 1200,
+  "innerError": undefined,
+  "message": "Format for the type unsupported is unsupported",
+  "name": "SchemaFormatError",
+  "type": "unsupported",
+}
+`;
+
+exports[`errors TransactionError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 400,
+  "innerError": undefined,
+  "message": "message",
+  "name": "TransactionError",
+  "receipt": Object {
+    "attr1": "attr1",
+  },
+}
+`;
+
+exports[`errors TransactionOutOfGasError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 406,
+  "innerError": undefined,
+  "message": "Transaction ran out of gas. Please provide more gas:
+ {
+  \\"attr1\\": \\"attr1\\"
+}",
+  "name": "TransactionOutOfGasError",
+  "receipt": Object {
+    "attr1": "attr1",
+  },
+}
+`;
+
+exports[`errors TransactionRevertInstructionError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 402,
+  "data": undefined,
+  "innerError": undefined,
+  "message": "Transaction has been reverted by the EVM:
+ {\\"attr1\\":\\"attr1\\"}",
+  "name": "TransactionRevertInstructionError",
+  "reason": "message",
+  "receipt": Object {
+    "attr1": "attr1",
+  },
+  "signature": "signature",
+}
+`;
+
+exports[`errors TransactionRevertWithCustomError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 438,
+  "customErrorArguments": Object {
+    "customErrorArgument": "customErrorArgument",
+  },
+  "customErrorDecodedSignature": "customErrorDecodedSignature",
+  "customErrorName": "customErrorName",
+  "data": "data",
+  "innerError": undefined,
+  "message": "Transaction has been reverted by the EVM",
+  "name": "TransactionRevertWithCustomError",
+  "reason": "reason",
+  "receipt": Object {
+    "attr1": "attr1",
+  },
+  "signature": "signature",
+}
+`;
+
+exports[`errors TransactionRevertedWithoutReasonError should have valid json structure 1`] = `
+Object {
+  "cause": undefined,
+  "code": 405,
+  "innerError": undefined,
+  "message": "Transaction has been reverted by the EVM:
+ {\\"attr1\\":\\"attr1\\"}",
+  "name": "TransactionRevertedWithoutReasonError",
+  "receipt": Object {
+    "attr1": "attr1",
+  },
+}
+`;

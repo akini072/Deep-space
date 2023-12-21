@@ -1,0 +1,6 @@
+dist
+lib
+jest.config.js
+.eslintrc.js
+cypress
+cypress.config.js
